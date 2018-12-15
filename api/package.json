@@ -1,0 +1,19 @@
+{
+  "name": "demo_restify",
+  "version": "0.1.0",
+  "description": "Demo Product API using Restify",
+  "main": "index.js",
+  "scripts": {
+        "start": "node index.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.0",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.3.0",
+    "restify-errors": "^6.1.1",
+    "restify-plugins": "^1.6.0"
+  }
+}
