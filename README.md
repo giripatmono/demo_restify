@@ -112,7 +112,7 @@ curl -i -X GET "http://localhost:3000/products" -H "Content-Type: application/js
   - color : String
   - price : Number
 - request example:
-  - `$ curl -i -X GET "http://localhost:3000/products?size=small&color=blue&price=price={gte}6000{lte}10000" -H "Content-Type: application/json"`
+  - `$ curl -i -X GET "http://localhost:3000/products?size=small&color=blue&price={gte}6000{lte}10000" -H "Content-Type: application/json"`
 - response example:
   - status : `200 OK`
   - body :
